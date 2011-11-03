@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/plain/contrib/hyplain
+# catalog-date 2007-03-07 20:05:57 +0100
+# catalog-license pd
+# catalog-version 1.0
 Name:		texlive-hyplain
 Version:	1.0
 Release:	1
@@ -43,6 +49,7 @@ between them while typesetting.
 %doc %{_texmfdistdir}/doc/plain/hyplain/README
 %doc %{_texmfdistdir}/doc/plain/hyplain/hydoc.pdf
 %doc %{_texmfdistdir}/doc/plain/hyplain/hydoc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ between them while typesetting.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
