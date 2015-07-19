@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-hyplain
 Version:	1.0
-Release:	9
+Release:	10
 Summary:	Basic support for multiple languages in Plain TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/hyplain
