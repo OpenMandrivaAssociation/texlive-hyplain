@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Basic support for multiple languages in Plain TeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/hyplain
+URL:		https://www.ctan.org/tex-archive/macros/plain/contrib/hyplain
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hyplain.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hyplain.doc.r%{version}.tar.xz
